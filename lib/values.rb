@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.map do |category|
+  groceries.map do |category,foods|
     category.values
   end
 end
