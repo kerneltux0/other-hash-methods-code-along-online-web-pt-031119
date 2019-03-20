@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   groceries.map do |category,foods|
-    category.values
+    binding.pry
   end
 end
