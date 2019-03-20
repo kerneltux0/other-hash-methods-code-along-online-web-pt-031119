@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.each do |category|
-    binding.pry
+  groceries.map do |category|
+    category.values
   end
 end
